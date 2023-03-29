@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RenameAllFiles", "RenameAllFiles.fsproj", "{CDCF0A41-058E-4553-859D-1CD5ADEE22E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|win-x64 = Debug|win-x64
+		Release|win-x64 = Release|win-x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDCF0A41-058E-4553-859D-1CD5ADEE22E3}.Debug|win-x64.ActiveCfg = Debug|Any CPU
+		{CDCF0A41-058E-4553-859D-1CD5ADEE22E3}.Debug|win-x64.Build.0 = Debug|Any CPU
+		{CDCF0A41-058E-4553-859D-1CD5ADEE22E3}.Release|win-x64.ActiveCfg = Release|Any CPU
+		{CDCF0A41-058E-4553-859D-1CD5ADEE22E3}.Release|win-x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18521259-080F-4CB5-909A-E25B72643B39}
+	EndGlobalSection
+EndGlobal
