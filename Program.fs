@@ -4,10 +4,9 @@ open System.IO
 let renameAllFiles searchStr replaceStr confirmed =
     let renameFile (oldFileName: string) =
         let newFileName = oldFileName.Replace(searchStr, replaceStr, StringComparison.CurrentCultureIgnoreCase)
-        if confirmed then
-            File.Move(oldFileName, newFileName)
-        else
-            printfn $" {oldFileName} -> {newFileName}"
+        match confirmed with
+        | true -> File.Move(oldFileName, newFileName)
+        | false -> printfn $" {oldFileName} -> {newFileName}"
     Directory.GetFiles(".", $"*{searchStr}*")
     |> Array.map (fun f -> f.Substring(2))
     |> Array.iter renameFile
