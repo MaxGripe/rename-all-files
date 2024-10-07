@@ -1,3 +1,9 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/MaxGripe/rename-all-files)
+![GitHub License](https://img.shields.io/github/license/MaxGripe/rename-all-files)
+![GitHub Created At](https://img.shields.io/github/created-at/MaxGripe/rename-all-files)
+![GitHub forks](https://img.shields.io/github/forks/MaxGripe/rename-all-files)
+![GitHub Repo stars](https://img.shields.io/github/stars/MaxGripe/rename-all-files)
+
 # RenameAllFiles
 
 Renames multiple files in a directory by replacing a specified search string with a replace string in the file names.
